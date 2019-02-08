@@ -7,8 +7,11 @@ using namespace std;
 int main()
 {
 	cout <<" Which one would you like to do?";
+  cout << "\n";
  	cout << " Enter A if you would like compute the amount of resturant bill";
+   cout << "\n";
  	cout << "Enter B if you would like to calculate BMI";
+   cout << "\n";
  	char option= ' ';
  	cin >> option;
  		if (option== 'a')
@@ -62,7 +65,7 @@ int main()
 				cout<<"BMI: "<<bmi<<endl;
 		}
 	else if (option =='q'){
+    cout <<"Quiting application";
 	return 0;
 }
-	else;
- 	cout << "Invalid" ;}
+}
