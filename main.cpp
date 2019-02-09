@@ -6,12 +6,9 @@ using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int main()
 {
-	cout <<" Which one would you like to do?";
-  cout << "\n";
- 	cout << " Enter A if you would like compute the amount of resturant bill";
-   cout << "\n";
- 	cout << "Enter B if you would like to calculate BMI";
-   cout << "\n";
+	cout <<"Which one would you like to do?\n";
+ 	cout << "Enter A if you would like compute the amount of resturant bill\n";
+ 	cout << "Enter B if you would like to calculate BMI\n";
  	char option= ' ';
  	cin >> option;
  		if (option== 'a')
